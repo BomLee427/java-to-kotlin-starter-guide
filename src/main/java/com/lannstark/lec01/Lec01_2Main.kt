@@ -16,7 +16,7 @@ fun main() {
      *  따라서 프로그래머는 Boxing, Unboxing을 고려하지 않아도 괜찮다.
      */
     var number1 = 10L
-    var number3 = 1_000L // LEC: 자바 코드로 변환해 보면 원시 타입으로 컴파일되었음을 알 수 있다.
+    var number3 = 1_000L /// 자바 코드로 변환해 보면 원시 타입으로 컴파일되었음을 알 수 있다.
 
     /**
      * Tip!

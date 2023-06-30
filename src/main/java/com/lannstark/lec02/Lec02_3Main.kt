@@ -6,7 +6,7 @@ package com.lannstark.lec02
  */
 fun startsWithA5(str: String?): Boolean {
     return str!!.startsWith("A")
-    // lec: 변수 뒤에 !!를 넣으면 컴파일러가 오류 체크를 하지 않음.
+    /// 변수 뒤에 !!를 넣으면 컴파일러가 오류 체크를 하지 않음.
 //      단, RunTime 예외가 발생할 수 있으므로 정말 확실한 경우에만 사용할 것
 }
 

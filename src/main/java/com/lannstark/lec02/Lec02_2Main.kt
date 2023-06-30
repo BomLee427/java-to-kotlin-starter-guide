@@ -11,13 +11,13 @@ fun main() {
     /**
      * Safe Call
      */
-    // str.length // lec: Not OK
-    str?.length // lec: OK. null이 아니면 실행하고, null이면 실행하지 않는다(그대로 null).
+    // str.length /// Not OK
+    str?.length /// OK. null이 아니면 실행하고, null이면 실행하지 않는다(그대로 null).
 
     /**
      * Elvis 연산자
      */
-    str?.length ?: "It is null" // lec: 연산 결과가 null이면 뒤의 값을 사용.
+    str?.length ?: "It is null" /// 연산 결과가 null이면 뒤의 값을 사용.
 }
 
 /**
