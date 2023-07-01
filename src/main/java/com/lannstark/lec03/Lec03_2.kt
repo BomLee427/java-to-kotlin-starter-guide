@@ -32,7 +32,7 @@ fun main() {
 
 fun printAgeIfPerson(obj: Any) {
     if (obj is Person) { /// is = instanceOf. !is = 부정형
-        // val person = obj as Person /// as = (Type). 생략 가능
+        // val person = obj as Person /// as = (Type). smart cast로 인해 생략 가능
         println(obj.age)
     }
 }
