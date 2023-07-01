@@ -37,7 +37,7 @@ fun printAgeIfPerson(obj: Any) {
     }
 }
 
-fun printAgeIfPerson(obj: Any?) {
+fun printAgeIfPersonNullable(obj: Any?) {
     val person = obj as? Person
     println(person?.age)
 }
