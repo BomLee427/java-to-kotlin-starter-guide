@@ -30,6 +30,7 @@ fun main() {
     }
 
     for ((idx, value) in numbers.withIndex()) { /// 전통적인 for문 느낌
+                                                /// (idx, value)는 구조분해 문법이다. (19강 내용)
         println("${idx}, ${value}")
     }
 
