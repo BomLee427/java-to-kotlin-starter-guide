@@ -25,6 +25,7 @@ public class JavaPerson {
     return age;
   }
 
+  /// Name에는 setter가 없다. (불변)
   public void setAge(int age) {
     this.age = age;
   }
