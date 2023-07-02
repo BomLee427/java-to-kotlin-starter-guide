@@ -3,27 +3,27 @@ package com.lannstark.lec13;
 public class JavaHouse {
 
   private String address;
-  private LivingRoom livingRoom;
+  private JavaLivingRoom livingRoom;
 
   public JavaHouse(String address) {
     this.address = address;
-    this.livingRoom = new LivingRoom(10);
+    this.livingRoom = new JavaLivingRoom(10);
   }
 
-  public LivingRoom getLivingRoom() {
+  public JavaLivingRoom getLivingRoom() {
     return livingRoom;
   }
 
-  public class LivingRoom {
+  public static class JavaLivingRoom {
     private double area;
 
-    public LivingRoom(double area) {
+    public JavaLivingRoom(double area) {
       this.area = area;
     }
 
-    public String getAddress() {
-      return JavaHouse.this.address;
-    }
+//    public String getAddress() {
+//      return JavaHouse.this.address;
+//    }
   }
 
 }
